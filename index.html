@@ -29,16 +29,17 @@
         </li>
     </ul>    
     </nav>
-    <section
+    <section style="
+    max-width: 1600px;
+    min-height: 25rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('./imgs/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  ">
+    <div
       class="w-full mx-auto bg-nordic-gray-light flex pt-12 md:pt-0 md:items-center bg-cover bg-right"
-      style="
-        max-width: 1600px;
-        height: 25rem;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-          url('./imgs/hero.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-      "
+      
     >
       <div
         class="flex flex-col w-full lg:w-1/2 justify-center items-start sm:p-16 p-4"
@@ -48,8 +49,15 @@
         >مشاريع شركة عكاشا الهندسية</h1>
         <p class="sm:text-xl inline-block text-white p-2">
         نستعرض في هذة الصفحة بعضاً من المشاريع الهندسية التي قامة الشركة بانشائها باحدث الطرق الهندسية و باستخدام احدث المعدات و الاليات</p>
+        
       </div>
-    </section>
+    </div>
+    <div class="grid center-items-center text-center text-2xl text-white">
+      <h4 class="p-2">عاين هنا</h4>
+      <span class="fas fa-chevron-down animate-bounce  "></span>
+    </div>
+  </section>
+
     <!-- the projects -->
     <section class="sm:grid grid-cols-3 gap-2 sm:p-16 p-4">
       <div
